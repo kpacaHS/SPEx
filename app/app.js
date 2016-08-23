@@ -6,7 +6,8 @@ import 'angular-material';
 import 'angular-ui-router';
 
 import AppComponent from './app.component';
-import HomeModule from './components/home/home.module';
+import './components/home/home.module';
+import './components/preference/preference.module';
 
 
 export default angular
@@ -14,7 +15,8 @@ export default angular
         'ngMaterial'
         , 'ui.router'
         , 'material.svgAssetsCache'
-        , 'homeModule'])
+        , 'homeModule'
+        , 'preferenceModule'])
     .component(AppComponent.name, AppComponent.config)
     .config(['$mdThemingProvider', ($mdThemingProvider)=>{
         $mdThemingProvider.theme('default')
@@ -27,5 +29,9 @@ export default angular
             .state('home', {
                 url: '/home',
                 template: '<home-component></home-component>'
+            })
+            .state('preference', {
+                url: '/preference',
+                template: '<preference-component></preference-component>'
             })
     }]);
