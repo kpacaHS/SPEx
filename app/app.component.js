@@ -1,5 +1,4 @@
 import AppController from './app.component.controller';
-
 export default{
     name: 'appComponent',
     config: {

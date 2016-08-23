@@ -15,7 +15,7 @@
         <md-list>
             <md-subheader class="md-no-sticky">Pages</md-subheader>
             <md-list-item>
-                <md-button>Home</md-button>
+                <md-button ui-sref="home" ng-click="$ctrl.toggleSideNav()">Home</md-button>
             </md-list-item>
             <md-list-item>
                 <md-button>Preferences</md-button>
@@ -31,3 +31,4 @@
         </md-list>
     </md-content>
 </md-sidenav>
+<div ui-view></div>

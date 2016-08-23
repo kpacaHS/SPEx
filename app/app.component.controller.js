@@ -1,7 +1,6 @@
 class AppController{
     constructor($mdSidenav){
         this.$mdSidenav = $mdSidenav;
-        this.menus = ['Home', 'Preferences', 'Help', 'Logout']
     }
 
     toggleSideNav(){

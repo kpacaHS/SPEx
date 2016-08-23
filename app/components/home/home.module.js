@@ -3,9 +3,12 @@ import 'angular-animate';
 import 'angular-aria';
 import 'angular-messages';
 import 'angular-material';
-import 'angular-ui-router';
 
-export default angular.module('home', [
+import HomeComponent from './home.component';
+
+let HomeModule = angular.module('homeModule', [
     'ngMaterial'
-    , 'ui.router'
-    , 'material.svgAssetsCache']);
+    , 'material.svgAssetsCache'])
+    .component(HomeComponent.name, HomeComponent.config);
+    
+export default HomeModule;

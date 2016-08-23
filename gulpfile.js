@@ -19,7 +19,6 @@ gulp.task('clean', (cb) => {
         });
 });
 
-gulp.task('watch', () => {
+gulp.task('watch', ['webpack'], () => {
     gulp.watch('./app/**/*.js', ['webpack']);
-    gulp.watch('./app/*.js', ['webpack']);
 });
