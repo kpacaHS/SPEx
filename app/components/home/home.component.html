@@ -1,3 +1,78 @@
-<div>
-    This is Home MODULE
-</div>
+<md-content class="md-padding" layout-xs="column" layout="row">
+    <div flex-xs flex-gt-xs="50" layout="column">
+      <md-card md-theme="default" md-theme-watch>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Received Orders</span>
+            <span class="md-subhead">49</span>
+          </md-card-title-text>
+          <md-card-title-media layout-align="end">
+            <div class="md-media-sm card-media">
+                <md-icon md-svg-src="img/icons/ic_launch_24px.svg" aria-label="Cake"></md-icon>
+            </div>
+          </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+      <md-card md-theme="default" md-theme-watch>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">To Do Orders</span>
+            <span class="md-subhead">45</span>
+          </md-card-title-text>
+          <md-card-title-media layout-align="end">
+            <div class="md-media-md card-media">
+                <md-icon md-svg-src="img/icons/copy.svg" aria-label="Cake"></md-icon>
+            </div>
+          </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+    </div>
+    <div flex-xs flex-gt-xs="50" layout="column">
+      <md-card md-theme="default" md-theme-watch>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Manage Defects</span>
+            <span class="md-subhead">49</span>
+          </md-card-title-text>
+          <md-card-title-media>
+            <div class="md-media-sm card-media">
+                <md-icon md-svg-src="img/icons/cake.svg" class="s24" aria-label="Cake"></md-icon>
+            </div>
+          </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+      <md-card md-theme="{{ showDarkTheme ? 'dark-blue' : 'default' }}" md-theme-watch>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">View Day Calendar</span>
+            <span class="md-subhead">45</span>
+          </md-card-title-text>
+          <md-card-title-media>
+            <div class="md-media-md card-media">
+                <md-icon md-svg-src="img/icons/ic_access_time_24px.svg" class="s24" aria-label="Today"></md-icon>
+            </div>
+          </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+    </div>
+</md-content>

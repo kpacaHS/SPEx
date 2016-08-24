@@ -14,7 +14,6 @@ export default angular
     .module('app', [
         'ngMaterial'
         , 'ui.router'
-        , 'material.svgAssetsCache'
         , 'homeModule'
         , 'preferenceModule'])
     .component(AppComponent.name, AppComponent.config)
