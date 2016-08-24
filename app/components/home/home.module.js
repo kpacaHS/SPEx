@@ -8,6 +8,7 @@ import HomeComponent from './home.component';
 
 let HomeModule = angular.module('homeModule', [
     'ngMaterial'
+    , 'ui.router'
     , 'material.svgAssetsCache'])
     .component(HomeComponent.name, HomeComponent.config);
     

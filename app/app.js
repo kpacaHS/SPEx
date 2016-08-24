@@ -8,14 +8,15 @@ import 'angular-ui-router';
 import AppComponent from './app.component';
 import './components/home/home.module';
 import './components/preference/preference.module';
-
+import './components/main/main.module';
 
 export default angular
     .module('app', [
         'ngMaterial'
         , 'ui.router'
         , 'homeModule'
-        , 'preferenceModule'])
+        , 'preferenceModule'
+        , 'mainModule'])
     .component(AppComponent.name, AppComponent.config)
     .config(['$mdThemingProvider', ($mdThemingProvider)=>{
         $mdThemingProvider.theme('default')
@@ -33,4 +34,8 @@ export default angular
                 url: '/preference',
                 template: '<preference-component></preference-component>'
             })
+            .state('main', {
+                url: '/main',
+                template: '<main-component></main-component>'
+            });
     }]);
