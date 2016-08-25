@@ -13,7 +13,7 @@
           </md-card-title-media>
         </md-card-title>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button ui-sref="main" class="md-icon-button" aria-label="Share">
+          <md-button ui-sref="main.orderList" class="md-icon-button" aria-label="Share">
             <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
           </md-button>
         </md-card-actions>
@@ -31,7 +31,7 @@
           </md-card-title-media>
         </md-card-title>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button ui-sref="main" class="md-icon-button" aria-label="Share">
+          <md-button ui-sref="main.todo" class="md-icon-button" aria-label="Share">
             <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
           </md-button>
         </md-card-actions>
@@ -51,12 +51,12 @@
           </md-card-title-media>
         </md-card-title>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button class="md-icon-button" aria-label="Share">
+          <md-button ui-sref="main.defects" class="md-icon-button" aria-label="Share">
             <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
           </md-button>
         </md-card-actions>
       </md-card>
-      <md-card md-theme="{{ showDarkTheme ? 'dark-blue' : 'default' }}" md-theme-watch>
+      <md-card md-theme="default" md-theme-watch>
         <md-card-title>
           <md-card-title-text>
             <span class="md-headline">View Day Calendar</span>
@@ -69,7 +69,7 @@
           </md-card-title-media>
         </md-card-title>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button class="md-icon-button" aria-label="Share">
+          <md-button ui-sref="main.calendar" class="md-icon-button" aria-label="Share">
             <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
           </md-button>
         </md-card-actions>
