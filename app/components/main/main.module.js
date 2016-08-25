@@ -9,6 +9,7 @@ import MainComponent from './main.component';
 import NavModule from '../nav/nav.module';
 import OrderListModule from '../order-list/order-list.module';
 import TodoModule from '../todo/todo.module';
+import DefectModule from '../defect/defect.module';
 
 let MainModule = angular.module('mainModule', [
     'ngMaterial'
@@ -16,6 +17,7 @@ let MainModule = angular.module('mainModule', [
     , 'navModule'
     , 'orderListModule'
     , 'todoModule'
+    , 'defectModule'
     , 'material.svgAssetsCache'])
     .component(MainComponent.name, MainComponent.config)
     .config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) => {
@@ -32,7 +34,7 @@ let MainModule = angular.module('mainModule', [
             })
             .state('main.defects', {
                 url: '/defects',
-                template: '<defects-component></defects-component>'
+                template: '<defect-component></defect-component>'
             })
             .state('main.calendar', {
                 url: '/calendar',

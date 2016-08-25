@@ -1,40 +1,40 @@
-class OrderListController{
+class DefectController{
     constructor(){
         this.data = [
             {
-                company: "Made in the Philippines Factory",
+                company: "Company to Die For",
                 project: "p-cr001 - Cedar Ridge Estates Phase 1 (cr001)",
                 block: "Lot: 17/Block: 15",
                 address: "59540 NE Willow Avenue",
-                job: "Destroy the Foundation",
-                dateStart: "01/27/2017"
+                job: "Fix the company",
+                dateStart: "02/19/2013"
             },
             {
-                company: "Willy Wonka Chocolate Factory",
+                company: "US Navy Company",
                 project: "p-cr001 - Cedar Ridge Estates Phase 1 (cr001)",
                 block: "Lot: 17/Block: 15",
                 address: "59540 NE Willow Avenue",
-                job: "Fix the Sewage",
-                dateStart: "06/15/2015"
+                job: "Fix Nuclear Reactor",
+                dateStart: "05/21/2015"
             },
             {
-                company: "Fernando Poe Housing Builder",
+                company: "Company The Beatles Made",
                 project: "p-cr001 - Cedar Ridge Estates Phase 1 (cr001)",
                 block: "Lot: 17/Block: 15",
                 address: "59540 NE Willow Avenue",
-                job: "Need to build the house",
-                dateStart: "09/11/2016"
+                job: "The world needs to be fixed",
+                dateStart: "08/30/2016"
             },
             {
-                company: "Quick Brown Fox, Jumps Over the Lazy Dog",
+                company: "Dont Eat my candy Company",
                 project: "Camp Toccoa Training",
                 block: "Lot: 17/Block: 15",
                 address: "59540 NE Willow Avenue",
-                job: "Repair the repair guy",
-                dateStart: "02/14/2016"
+                job: "More candy",
+                dateStart: "06/13/2018"
             }
         ]
     }    
 }
 
-export default OrderListController;
+export default DefectController;
