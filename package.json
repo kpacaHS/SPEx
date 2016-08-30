@@ -8,7 +8,8 @@
     "angular-aria": "^1.5.8",
     "angular-material": "^1.1.0",
     "angular-messages": "^1.5.8",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "ng-cordova": "^0.1.27-alpha"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",

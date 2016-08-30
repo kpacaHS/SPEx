@@ -1,4 +1,5 @@
 import angular from 'angular';
+import 'ng-cordova';
 import 'angular-animate';
 import 'angular-aria';
 import 'angular-messages';
@@ -13,6 +14,7 @@ import './components/main/main.module';
 export default angular
     .module('app', [
         'ngMaterial'
+        , 'ngCordova'
         , 'ui.router'
         , 'homeModule'
         , 'preferenceModule'
