@@ -18,7 +18,7 @@ export default angular
         , 'preferenceModule'
         , 'mainModule'])
     .factory('redirector', ['$state', ($state)=>{
-		/*this is just sample redirection for mobile/phonegap. used angular injector to get access of this function from inside push.js (phonegap push notification)
+		/*this is just sample redirection for mobile/phonegap. used angular injector to get access of this function from inside js/index.js (phonegap push notification)
 		 might have to use ngCordova for this so that i can just add it as dependency in app module*/
         return {
             redirect: function(){
