@@ -25,7 +25,6 @@
     "webpack": "^1.13.2"
   },
   "scripts": {
-    "serve": "lite-server",
-    "dev": "gulp watch | lite-server"
+    "serve": "gulp webpack && lite-server"
   }
 }

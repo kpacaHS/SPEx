@@ -7,6 +7,7 @@ import 'angular-material';
 import 'angular-ui-router';
 
 import AppComponent from './app.component';
+import CalendarModalComponent from './components/shared/calendar-modal/calendar-modal.component';
 import './components/home/home.module';
 import './components/preference/preference.module';
 import './components/main/main.module';
@@ -29,6 +30,7 @@ export default angular
         }
     }])
     .component(AppComponent.name, AppComponent.config)
+    .component(CalendarModalComponent.name, CalendarModalComponent.config)
     .config(['$mdThemingProvider', ($mdThemingProvider)=>{
         $mdThemingProvider.theme('default')
             .primaryPalette('orange');
