@@ -1,14 +1,14 @@
 # SPEx
 
-Testing out some look and feel for Supply Pro.
+* Testing out some look and feel for Supply Pro.
 
-AngularJS1.5 (Components)
+* AngularJS1.5 (Components)
 
-Angular Material
+* Angular Material
 
-ES2015
+* ES2015
 
-Webpack with babel
+* Webpack with babel
 
 How to setup:
 
